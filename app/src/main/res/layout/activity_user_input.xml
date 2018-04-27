@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInput">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="\n\nStep 1: Choose Required Services" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:text="Services Offered" />
+
+
+    <CheckBox
+        android:id="@+id/input_cab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginStart="150dp"
+        android:text="Cab" />
+
+    <CheckBox
+        android:id="@+id/input_clothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="188dp"
+        android:text="Clothing" />
+
+    <CheckBox
+        android:id="@+id/input_jewellery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="228dp"
+        android:text="Jewellery" />
+
+    <CheckBox
+        android:id="@+id/input_lodge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="268dp"
+        android:text="Lodge" />
+
+    <CheckBox
+        android:id="@+id/input_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="308dp"
+        android:text="Restaurant" />
+
+    <CheckBox
+        android:id="@+id/input_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="348dp"
+        android:text="Shopping" />
+
+    <CheckBox
+        android:id="@+id/input_sites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="388dp"
+        android:text="Sites" />
+
+
+    <CheckBox
+        android:id="@+id/input_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="428dp"
+        android:text="Travel" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/login_button"
+        android:text="Next Step" />
+
+</RelativeLayout>
